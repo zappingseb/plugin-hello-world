@@ -1,0 +1,18 @@
+{
+    "name": "plentymarkets/frontend-plugin",
+    "type": "project",
+    "description": "Creates an empty frontend plugin for plentymarkets plugin development",
+    "authors":
+    [
+        {
+            "name": "plentymarkets",
+            "email": "sales@plentymarkets.com",
+            "homepage": "https://www.plentymarkets.eu",
+            "role": "Developer"
+        }
+    ],
+    "require":
+    {
+        "php": "^5.5 || ^7.0",
+    }
+}
