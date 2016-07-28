@@ -1,5 +1,5 @@
 {
-    "name": "plentymarkets/frontend-plugin",
+    "name": "plentymarkets/plugin-hello-world",
     "type": "project",
     "description": "Creates an empty frontend plugin for plentymarkets plugin development",
     "authors":
