@@ -1,4 +1,5 @@
-https://github.com/plentymarkets/terra/blob/stable7/README.md
+![plentymarkets Logo](http://www.plentymarkets.eu/layout/pm/images/logo/plentymarkets-logo.jpg)
+
 # "Hello World" Plugin
 
 Sample plugin for plentymarkets plugin development.
