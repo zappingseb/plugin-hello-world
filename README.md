@@ -1,6 +1,9 @@
+https://github.com/plentymarkets/terra/blob/stable7/README.md
 # "Hello World" Plugin
 
 Sample plugin for plentymarkets plugin development.
+
+Learn how to create your first plentymarkets plugin https://developers.plentymarkets.com
 
 ## Installation
 
