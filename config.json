@@ -1,0 +1,18 @@
+{
+  "formatVersion": 1.0,
+  "menu": {
+    "textSettings": {
+      "label": "Config.textSettings",
+      "formFields": {
+        "textSettings.color": {
+          "type": "colorPicker",
+          "required": false,
+          "label": "Config.textSettings.color",
+          "options": {
+            "defaultValue": "#000000"
+          }
+        }
+      }
+    }
+  }
+}
