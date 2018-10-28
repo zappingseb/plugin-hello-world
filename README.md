@@ -4,8 +4,6 @@
 
 This is the **Hello World** plugin developed by plentymarkets.
 
-The master branch of this repository contains a simple plugin that renders a template and registers a route under which the template is displayed. Check out the branch [further_options](https://github.com/plentymarkets/plugin-hello-world/tree/further_options) to see more possibilities.
-
 ## Requirements
 
 This is a plugin for [plentymarkets 7](https://www.plentymarkets.com). No other plugins are required for running the plugin.
