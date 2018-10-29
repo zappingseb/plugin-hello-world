@@ -4,6 +4,7 @@
 
 This is the **Hello World** plugin developed by plentymarkets.
 
+The code in this branch should show some possibilities that go beyond a first "Hello World". More information can be found in the file foo.md
 ## Requirements
 
 This is a plugin for [plentymarkets 7](https://www.plentymarkets.com). No other plugins are required for running the plugin.
