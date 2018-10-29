@@ -4,5 +4,20 @@
       "namespace":"HelloWorld",
       "author":"Christian Moll",
       "type":"template",
-      "serviceProvider":"HelloWorld\\Providers\\HelloWorldServiceProvider"
+      "serviceProvider":"HelloWorld\\Providers\\HelloWorldServiceProvider",
+      "dataProviders":[
+            {
+                  "key":"HelloWorld\\Containers\\ExampleDataProvider",
+                  "name":"ExampleDataProvider",
+                  "description": "Displays example Content."
+            }
+      ],
+      "containers":
+      [
+            {
+                  "key":"Example.Container",
+                  "name":"Example container",
+                  "description":"Example Container to render content."
+            }
+      ]
 }
