@@ -1,8 +1,8 @@
 {
       "name":"HelloWorld",
-      "description":"Plugin to render a list of top items",
+      "description":"My first plugin",
       "namespace":"HelloWorld",
-      "author":"Razvan Ghizdavu",
+      "author":"Christian Moll",
       "type":"template",
       "serviceProvider":"HelloWorld\\Providers\\HelloWorldServiceProvider"
 }
