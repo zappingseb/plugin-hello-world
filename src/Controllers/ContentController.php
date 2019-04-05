@@ -30,6 +30,6 @@ class ContentController extends Controller
 				'HelloWorld::guzzle_connector',
 				['packagist_query' => $request->get('search')]
 			);
-		return $twig->render('HelloWorld::content.hello', $packagistResult);
+		return $twig->render('HelloWorld::content.hello', ['packagistResult' => $packagistResult]);
 	}
 }
