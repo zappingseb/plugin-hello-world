@@ -4,6 +4,6 @@
       "namespace":"HelloWorld",
       "author":"Christian Moll",
       "type":"template",
-      "require": ["Ceres"],
+      "require": {"Ceres": "4.2.0"},
       "serviceProvider":"HelloWorld\\Providers\\HelloWorldServiceProvider"
 }
