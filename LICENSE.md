@@ -1,4 +1,4 @@
-plentymarkets plugin hello world
+plentysystems AG - plugin hello world
 
 Copyright © 2016 plentymarkets GmbH
 
