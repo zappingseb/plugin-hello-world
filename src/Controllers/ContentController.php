@@ -15,7 +15,7 @@ class ContentController extends Controller
         $orderResultFactory = pluginApp(OrderResultFactory::class);
         $order = $orderResultFactory->fillOrderResult();
 
-	return $twig->render('HelloWorld::TEMPLATE', $order);
+	return $twig->render('HelloWorld::TEMPLATE', ['data' => $order]);
 
     }
 }
