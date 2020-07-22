@@ -1,22 +1,21 @@
-{% block PageBody %}
-    <h1 style="text-align: center">{{ resultCount }} top items found!</h1>
-    <div class="col-xs-12 card-deck-wrapper" style="overflow: auto">
-    <ul class="list-unstyled card-deck" style="height: 380px">
-        {% if currentItems is not null %}
-            {% for item in currentItems %}
-                <li class="card" style="width: 280px">
+<h1 style="text-align: center">{{ resultCount }} top items found!</h1>
+<div class="col-xs-12 card-deck-wrapper" style="overflow: auto">
+<ul class="list-unstyled card-deck" style="height: 380px">
+    {% if currentItems is not null %}
+        {% for item in currentItems %}
+            <li class="card" style="width: 280px">
 
-                    <div class="card-block">
-                        <p class="card-text">{{ item.description }}</p>
-                    </div>
-                    
-                   </li>
+                <div class="card-block">
+                    <p class="card-text">{{ item.description }}</p>
+                </div>
 
-            {% endfor %}
- 
-            {% else %}
-                <li>No items found!</li>
-        {% endif %}
-    </ul>
-    </div>
-{% endblock %}
+               </li>
+
+        {% endfor %}
+
+        {% else %}
+            <li>No items found!</li>
+    {% endif %}
+</ul>
+</div>
+
