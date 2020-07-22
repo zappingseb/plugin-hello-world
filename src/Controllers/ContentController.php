@@ -1,21 +1,21 @@
 <?php
 namespace HelloWorld\Controllers;
 
-use Plenty\Plugin\Controller;
-use Plenty\Plugin\Templates\Twig;
+use Ceres\Widgets\Helper\BaseWidget;
+use IO\Services\Order\Factories\OrderResultFactory;
 
-/**
- * Class ContentController
- * @package HelloWorld\Controllers
- */
 class ContentController extends Controller
 {
-	/**
-	 * @param Twig $twig
-	 * @return string
-	 */
-	public function sayHello(Twig $twig):string
-	{
-		return $twig->render('HelloWorld::content.hello');
-	}
+    /**
+     * @inheritdoc
+     */
+    public function sayHello(Twig $twig):string
+    {
+        /** @var OrderResultFactory $orderResultFactory */
+        $orderResultFactory = pluginApp(OrderResultFactory::class);
+        $order = $orderResultFactory->fillOrderResult();
+
+	return $twig->render('HelloWorld::TEMPLATE', $order);
+
+    }
 }
