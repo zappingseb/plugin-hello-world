@@ -1,6 +1,8 @@
 <?php
 namespace HelloWorld\Controllers;
 
+use Plenty\Plugin\Controller;
+use Plenty\Plugin\Templates\Twig;
 use Ceres\Widgets\Helper\BaseWidget;
 use IO\Services\Order\Factories\OrderResultFactory;
 
